@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 55%;
+}
+
+.site-header {
+  background: #fff;
+  border-bottom: 3px solid red;
+  padding-bottom: 5px;
+  position: fixed;
+  top: 0;
+  width: 55%;
+}
+
+.site-title {
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2em;
+  padding-top: .6em;
+}
+
+.site-nav , .image-gallery {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav {
+  float: right;
+}
+
+.site-nav li {
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: .9em;
+  list-style: none;
+  margin: .9em;
+}
+
+.site-main {
+  clear: both;
+  padding-bottom: 4em;
+  padding-top: 10em;
+}
+
+.site-nav a, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.image-gallery li {
+  float: left;
+  margin-bottom: 3%;
+  margin-left: 0;
+  margin-right: 3%;
+  width: 48.5%;
+}
+
+.image-gallery li:nth-child(even) {
+  margin-right: 0 !important;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.site-footer {
+  border-top: 3px solid red;
+  color: grey;
+  padding-bottom: 5em;
+  padding-top: 5em;
+  text-align: center;
+
+}
+
+.page-section a {
+color: red;
+}
+
+#about {
+  word-spacing: .2em;
+}
+
+#about, #contact {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 6em;
+  margin-left: 51.5%;
+  width: 48.5%;
+}
+
+#contact {
+  font-size: .65em;
+  margin-top: 7em;
+}
+
+#contact ul {
+  font-size: 1.4em;
+  line-height: 1.7em;
+  padding-left: 5%;
+}
+
+img {
+  max-width: 100%;
+}

@@ -1,0 +1,90 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 55%;
+  margin: 0 auto;
+  min-height: 100%;
+  position: relative;
+}
+
+.site-header {
+  background: #fff;
+  width: 55%;
+  top: 0;
+  position: fixed;
+  border-bottom: 2px solid red;
+  padding-bottom: 5px;
+}
+
+.site-title {
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.site-nav {
+  float: right;
+}
+
+.site-nav li {
+  list-style: none;
+  float: left;
+  margin: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+}
+
+.site-main {
+  padding-top: 150px;
+  clear: both;
+  padding-bottom: 60px;
+}
+
+a, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#about, #contact {
+  float: right;
+  width: 47%;
+}
+
+#contact {
+  clear: both;
+}
+
+#portfolio {
+  padding-top: 30px;
+  float: left;
+}
+
+img {
+  max-width: 100%;
+}
+
+.site-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+.image-gallery li {
+  float: left;
+  width: 48.5%;
+  margin-bottom: 3%;
+  margin-right: 3%;
+  margin-left: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.image-gallery li:nth-child(even) {
+  margin-right: 0 !important;
+}
