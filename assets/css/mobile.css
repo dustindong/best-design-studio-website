@@ -5,6 +5,22 @@
   padding-left: 0.5em;
 }
 
+  .site-header {
+    position: absolute;
+    width: 100%;
+  }
+
+.site-title {
+  padding-left: .37em;
+}
+
+#about, #contact, #portfolio {
+  padding-top: 0em;
+}
+
+.site-nav li:first-child {
+  margin-left: 0;
+}
 
 }
 
