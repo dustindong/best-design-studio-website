@@ -1,8 +1,10 @@
 @media only screen and (max-width: 800px){
+
 .image-gallery li {
   width: 100%;
   padding: 0 .5em;
 }
+
 #contact, #about {
   width: 100%;
   margin: 0;
@@ -13,8 +15,10 @@
   padding: 0 .5em 3em;
 }
 
-.site-nav, .site-header {
-  width: 100%;
+#about, #contact, #portfolio {
+  margin-top: -150px;
+  padding-top: 150px;
 }
+
 }
 
