@@ -13,5 +13,8 @@
   padding: 0 .5em 3em;
 }
 
+.site-nav, .site-header {
+  width: 100%;
+}
 }
 

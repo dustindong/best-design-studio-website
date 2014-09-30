@@ -47,6 +47,10 @@ img {
   margin: 0;
   padding: 0;
 }
+
+.site-nav li {
+
+}
 .site-nav ol {
   float: right;
 }
@@ -108,10 +112,7 @@ color: red;
   margin-left: 51.5%;
   width: 48.5%;
 }
-#about, #contact, #portfolio{
-  padding-top: 4.75em;
-  margin-top: -4.75em;
-}
+
 #contact {
   font-size: .65em;
   margin-top: 7em;
@@ -121,5 +122,10 @@ color: red;
   font-size: 1.4em;
   line-height: 1.7em;
   padding-left: 5%;
+}
+
+#about, #contact, #portfolio {
+  margin-top: -100px;
+  padding-top: 100px;
 }
 
