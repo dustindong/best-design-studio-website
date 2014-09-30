@@ -24,12 +24,15 @@ img {
 .site-header {
   background: #fff;
   border-bottom: .1875em solid red;
-  left: 20em;
+  left: 0;
+  margin: 0 auto;
   max-width: 50em;
   padding-bottom: .33em;
+  padding-left: .5em;
+  padding-right: .5em;
   padding-top: 1em;
   position: fixed;
-  right: 20em;
+  right: 0;
   top: 0;
 }
 
