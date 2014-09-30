@@ -8,6 +8,9 @@
   .site-header {
     position: absolute;
     width: 100%;
+    padding-bottom: 0em;
+    padding: 0em;
+    height: 6em;
   }
 
 .site-title {
