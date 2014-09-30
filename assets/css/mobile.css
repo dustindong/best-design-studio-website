@@ -1,3 +1,13 @@
+@media only screen and (max-width: 400px) {
+  .site-nav ol, .site-header {
+  float: left;
+  margin-left: 0;
+  padding-left: 0.5em;
+}
+
+
+}
+
 @media only screen and (max-width: 800px){
 
 .image-gallery li {
@@ -5,26 +15,13 @@
   padding: 0 .5em;
 }
 
-.site-nav ol, .site-header {
-  float: left;
-  margin-left: 0;
-  padding-left: 0.5em;
-}
-
-.site-nav li:first-child {
-  margin-left: -0.5em;
-}
-
-.site-nav a {
-  color: red;
-}
 #contact, #about {
   width: 100%;
   margin: 0;
 }
 
 #about {
-  font-size: 1.3em;
+  font-size: 1em;
   padding: 0 .5em 3em;
 }
 
