@@ -5,13 +5,31 @@
   padding: 0 .5em;
 }
 
+.site-nav ol, .site-header {
+  float: left;
+  margin-left: 0;
+  padding-left: 0.5em;
+}
+
+.site-nav li:first-child {
+  margin-left: -0.5em;
+}
+
+.site-nav a {
+  color: red;
+}
 #contact, #about {
   width: 100%;
   margin: 0;
 }
 
-#about, #contact {
+#about {
   font-size: 1.3em;
+  padding: 0 .5em 3em;
+}
+
+#contact {
+  font-size: .65em;
   padding: 0 .5em 3em;
 }
 
