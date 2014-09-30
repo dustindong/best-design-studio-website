@@ -47,10 +47,13 @@ img {
   margin: 0;
   padding: 0;
 }
+.site-nav ol {
+  float: right;
+}
 
 .site-nav li {
+  float: left;
   display: inline-block;
-  float: right;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: .9em;
   list-style: none;
@@ -61,7 +64,7 @@ img {
 .site-main {
   clear: both;
   padding-bottom: 4em;
-  padding-top: 10em;
+  padding-top: 8em;
 }
 
 .site-nav a, a:visited {
@@ -105,7 +108,10 @@ color: red;
   margin-left: 51.5%;
   width: 48.5%;
 }
-
+#about, #contact, #portfolio{
+  padding-top: 4.75em;
+  margin-top: -4.75em;
+}
 #contact {
   font-size: .65em;
   margin-top: 7em;
